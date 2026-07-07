@@ -10,6 +10,7 @@ a separate local PC running ROS2.
 
 Tradeoffs:
 - this is not a "consumer product" anymore due to the need to set up the additional ROS2 local PC
+  - PC-to-ESP32-S3 Wi-Fi connection can suffer from dead reception zones, busy Wi-Fi
 - no camera-based obstacle recognition
 
 - mounts on [OOMWOO carrier I/O board](https://github.com/makerspet/oomwoo-io-board)
